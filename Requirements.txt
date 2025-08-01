@@ -1,0 +1,48 @@
+📋 Requirements
+To run this project, you will need:
+1.A Web Browser
+Chrome, Edge, Firefox, or any modern browser to open index.html.
+
+2. IBM Watson Assistant Account-
+
+Create a free account on IBM Cloud.
+Create a Watson Assistant service.
+Get these three things from the “Manage” tab:
+API Key
+Assistant ID
+Service URL
+
+3.Text Editor (Optional but Recommended)
+Visual Studio Code for editing HTML, CSS, and JavaScript.
+
+4.Project Files
+index.html → Chatbot page
+style.css → Chatbot design
+chatbot.js → Chatbot logic to connect with IBM Watson Assistant
+assets/ → Images, icons, etc.
+
+5. Internet Connection
+Needed to connect your chatbot to IBM Watson Assistant.
+
+6. Ibm cloud-
+in IBM cloud you can make many entriues like entitites , intents ,dialog 
+for book recommendation you need to add entities like mood,genre,authors
+and intents are like in mood-happy,sad,emotional ,funny etc.
+using this we can create many kind of entries.and this is important for builduing an AI chatbot.
+
+7.Most importantly ibm watsonx ai generated code-
+for mine it is-
+ <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "8f04df1b-ff82-45be-bf27-6554b51599d9", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "d5952d7d-068a-479b-a16b-f680f7c8b248", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+by which it can generate the IntegerationID:,region,serviceInstanceID by using this your AI is applicable to use anywhere in any website.
