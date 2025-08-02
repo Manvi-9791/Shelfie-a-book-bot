@@ -19,7 +19,8 @@ This project was developed as part of a "summer internship" in IBM PBEL to explo
 - IBM Watson Assistant
 - JavaScript (for chatbot integration)
 
- 📂 Project screenshots-
+ 📂 Project screenshots-is in another files.
+ 
 
 
 
